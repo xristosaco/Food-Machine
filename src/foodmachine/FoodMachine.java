@@ -61,7 +61,7 @@ public class FoodMachine {
         System.out.println("Yes 1 ");
         System.out.println("No 2");
         int yesNo= io.nextInt();
-        if (yesNo==1 )
+        
         //3) να σε ρωταει αν θες κατι αλλο
         //4) να σου σου λεει τι προιοντα αγορασες
         //5) την τελικη τιμη
