@@ -17,6 +17,9 @@ public class Chocolate {
         System.out.println("Chocolate Prise is 1.5 ");
         int choco= io.nextInt();
         System.out.println("Your change is "+(choco-1.5));
+        if(choco<1.5){
+            System.out.println("Not enough money");
+        }
     return prise;
     }
 }
