@@ -38,31 +38,32 @@ public class FoodMachine {
         Water waPrise = new Water();
         
         
-        switch (order){
-            case 1:
-                choPrise.chocolatePrise(order);
-                break; 
-            case 2:
-                cpPrise.cipsPrise(order);
-                break;
-            case 3:
-                icprise.icecreamPrise(order);
-                break;
-            case 4 :
-                sdPise.sodaWaterprise(order);
-                break;
-                
-            case 5:
-                waPrise.waterPrise(order);
-                break;
         
-        }
+//        switch (order){
+//            case 1:
+//                choPrise.chocolatePrise(order);
+//                break; 
+//            case 2:
+//                cpPrise.cipsPrise(order);
+//                break;
+//            case 3:
+//                icprise.icecreamPrise(order);
+//                break;
+//            case 4 :
+//                sdPise.sodaWaterprise(order);
+//                break;
+//                
+//            case 5:
+//                waPrise.waterPrise(order);
+//                break;
+//        
+//        }
         System.out.println("You want somthing else?");
         System.out.println("Yes 1 ");
         System.out.println("No 2");
         int yesNo= io.nextInt();
         
-        //3) να σε ρωταει αν θες κατι αλλο
+        
         //4) να σου σου λεει τι προιοντα αγορασες
         //5) την τελικη τιμη
         //6) αν τα χρηματα ειναι κατω απο την αξια τον προιοντων να σου λεει καποιο μνμ
